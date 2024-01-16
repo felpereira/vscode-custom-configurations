@@ -340,5 +340,4 @@
   "cSpell.caseSensitive": true,
   "files.autoGuessEncoding": true,
 }
-}
 ```
