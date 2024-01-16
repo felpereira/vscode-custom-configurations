@@ -2,7 +2,7 @@
 
 ```json
 {
-  "workbench.startupEditor": "newUntitledFile",
+  "workbench.startupEditor": "none",
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
   "javascript.suggest.autoImports": true,
@@ -28,7 +28,7 @@
   },
   "editor.parameterHints.enabled": false,
   "editor.renderLineHighlight": "gutter",
-  "cSpell.language": "en,pt",
+  "cSpell.language": "en,pt-br",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.suggestSelection": "first",
   "explorer.confirmDelete": false,
@@ -74,7 +74,7 @@
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontFamily": "monospace",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
@@ -106,7 +106,6 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "window.commandCenter": true,
   "git.openRepositoryInParentFolders": "always",
   "symbols.hidesExplorerArrows": false,
   "[javascript]": {
@@ -159,38 +158,66 @@
   },
   "explorer.fileNesting.enabled": true,
   "cSpell.userWords": [
+    "adicao",
+    "Alteracao",
+    "antimageapp",
     "autofocus",
+    "Autorizacao",
+    "axpw",
     "bootcamp",
+    "botao",
+    "Calculos",
+    "Celula",
+    "celulas",
     "chakra",
     "checkin",
     "checkins",
     "clsx",
     "Codegen",
     "Comunicacao",
+    "Conexao",
+    "configuracao",
     "Configuracao",
     "configuracoes",
     "Configuracoes",
     "datadog",
+    "datatable",
     "Datetime",
     "datetimepicker",
     "dayjs",
     "dbaeumer",
+    "descricao",
+    "Descricao",
+    "dominio",
     "Dotenv",
+    "Edicao",
+    "Editavel",
     "Elysia",
     "esbuild",
     "esnext",
+    "Exibicao",
+    "exportacao",
+    "expressao",
     "fastify",
     "Fastify",
     "feedbackwidget",
     "ffprobe",
     "fontsize",
+    "Funcionario",
+    "funcionarios",
+    "Funcionarios",
     "Hasher",
     "Hono",
     "icns",
     "ilike",
+    "Importacao",
+    "indice",
+    "informacao",
     "IUGU",
     "jamjuree",
     "jupiter",
+    "Lgpd",
+    "LGPD",
     "liveblocks",
     "LIVEBLOCKS",
     "lockb",
@@ -198,19 +225,31 @@
     "middlewares",
     "mixpanel",
     "monaco",
+    "Navegacao",
     "nestjs",
     "nosidebar",
+    "numeros",
     "omni",
     "Omni",
     "Onboarded",
+    "Opcoes",
+    "ordenacao",
     "pallas",
     "Parens",
+    "Permissao",
     "postgres",
     "postgresql",
     "precommit",
     "prefetch",
+    "preid",
     "prepush",
+    "preversion",
     "reactflow",
+    "Relatorio",
+    "Repositorios",
+    "REQUISICAO",
+    "restricoes",
+    "Restricoes",
     "roboto",
     "rocketseat",
     "rotion",
@@ -218,16 +257,19 @@
     "Sandpack",
     "secullum",
     "Secullum",
+    "Sensiveis",
     "shiki",
     "skylab",
     "sqlite",
     "stylesheet",
+    "subtracao",
     "supergraph",
     "svgr",
     "sympla",
     "tailwindcss",
     "textblock",
     "tiptap",
+    "traducao",
     "trivago",
     "trpc",
     "TRPC",
@@ -238,14 +280,65 @@
     "Unform",
     "unmark",
     "upsert",
+    "usuario",
     "Usuario",
+    "usuarios",
+    "Usuarios",
+    "WEBAPI",
     "WEBPUSH",
     "zxing"
   ],
   "terminal.integrated.env.windows": {},
   "editor.fontFamily": "JetBrainsMono Nerd Font",
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "window.openFoldersInNewWindow": "off",
+  "window.restoreWindows": "one",
+  "editor.formatOnPaste": true,
+  "sonarlint.rules": {
+    "javascript:S3776": {
+      "level": "off"
+    },
+    "javascript:S1440": {
+      "level": "on"
+    },
+    "javascript:S3513": {
+      "level": "on"
+    },
+    "javascript:S4326": {
+      "level": "on"
+    },
+    "javascript:S4139": {
+      "level": "on"
+    },
+    "javascript:S1535": {
+      "level": "on"
+    },
+    "javascript:S126": {
+      "level": "on"
+    },
+    "javascript:S3533": {
+      "level": "on"
+    },
+    "javascript:S1539": {
+      "level": "on"
+    },
+    "javascript:S131": {
+      "level": "on"
+    },
+    "javascript:S1821": {
+      "level": "on"
+    },
+    "javascript:S2138": {
+      "level": "on"
+    },
+    "javascript:S1105": {
+      "level": "on"
+    }
+  },
+  "cSpell.caseSensitive": true,
+  "files.autoGuessEncoding": true,
+}
 }
 ```
